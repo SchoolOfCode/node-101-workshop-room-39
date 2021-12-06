@@ -31,7 +31,8 @@ const describeItem = (count) => {
 
 describeItem(9);
 
-function describeCollection(item) {
-    myCollection.forEach((item) => console.log(item));
+function describeCollection() {
+    myCollection.forEach((count) => console.log(count.count));
 }
-describeCollection(3);
+
+describeCollection();
